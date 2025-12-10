@@ -1,59 +1,105 @@
-# CYART VAPT – WEEK 2
+# CYART – Vulnerability Assessment & Penetration Testing (VAPT)
 
-**This repository contains all deliverables for Week 2 – Vulnerability Assessment & Penetration Testing (VAPT)**.
-The week’s tasks include:
-* Vulnerability Scanning
-* Reconnaissance
-* Exploitation
-* Post-Exploitation
-* PTES-based Reporting
+This repository documents my complete learning and practical work for CYART’s VAPT Internship program.  
+Each week contains structured theoretical notes, practical labs, screenshots, reports, and workflows following professional pentesting methodologies.
 
-This repository is designed to look clean, professional, and ready for academic or industry review.
-```
-Week-2/
- ├── Documentation/        → Notes, screenshots, workflows
- ├── Scan-Results/         → OpenVAS, Nmap raw data
- ├── Final-Report/         → PTES Technical + Executive Reports
- └── README.md             → Week-specific summary
-```
+---
 
-# Tools Used
-* Kali Linux
-* OpenVAS / Greenbone
-* Nmap
-* Metasploitable2
-* DVWA
-* Burp Suite
+## Repository Structure
+CyART_VAPT/
+├── Week-2/
 
-# Key Deliverables
-**Vulnerability Scan (OpenVAS)**
-* Detection of high, medium, and low severity findings
-* CVSS-based prioritization
-* Remediation recommendations
-* Screenshots of critical issues
 
-**Reconnaissance Logs**
-* WHOIS
-* Subdomain enumeration
-* Technology stack fingerprinting
-* Asset mapping
+Each week includes:
+- **Theory Documentation**
+- **Tool Setup Notes**
+- **Lab Screenshots**
+- **Scan Results**
+- **Reports (PDF/Docs)**
+- **Workflow Steps**
 
-**Exploitation Lab**
-* Metasploitable2 exploitation
-* FTP, HTTP, RSH, TWiki, EasyPHP vulnerabilities
-* SQL Injection (DVWA)
+---
 
-**Post Exploitation**
-* Privilege escalation
-* Evidence collection
-* Hash verification
+## Learning Scope
 
-**Reports**
-* PTES Technical Report (200+ words)
-* Executive Summary (100 words)
+This repository covers:
 
-# Refrences
-* Metasploitable2 VM lab https://sourceforge.net/projects/metasploitable/files/Metasploitable2/
-* DVWA setup https://www.kali.org/tools/dvwa/
-* Shodan https://www.shodan.io/
-* OpenVAS https://www.greenbone.net/en/products/
+### **1. Vulnerability Scanning**
+- Nmap
+- OpenVAS / Greenbone
+- Nikto
+- CVSS scoring
+
+### **2. Penetration Testing**
+- Reconnaissance
+- Scanning & Enumeration
+- Exploitation
+- Post-Exploitation
+- Reporting (PTES style)
+
+### **3. Exploit Development Basics**
+- Buffer Overflow fundamentals
+- Exploit PoCs
+- Bypasses & Mitigations
+
+### **4. OSINT & Recon**
+- Shodan
+- Subdomain Enumeration
+- Maltego
+- WHOIS, Wappalyzer, HTTP tech stack analysis
+
+---
+
+## Tools Used
+The following security tools are used across the labs:
+- **Kali Linux**
+- **Metasploitable2**
+- **DVWA**
+- **TryHackMe Labs**
+- **OpenVAS**
+- **Metasploit Framework**
+- **Burp Suite**
+- **sqlmap**
+- **Nmap**
+- **Nikto**
+- **Maltego**
+- **Shodan**
+
+---
+
+## Weekly Work Summary
+
+| Week   | Topics Covered | Status |
+|--------|----------------|--------|
+| Week 2 | Vulnerability Scanning Techniques | Completed |
+
+---
+
+## Reports
+
+All reports are inside respective week folders:
+- Technical Report (PDF)
+- Executive Summary (100 words)
+- Vulnerability Table
+- Screenshots & Evidence
+- CVSS Score Sheets
+
+---
+
+## Disclaimer
+
+This project is purely for **ethical cybersecurity training**.  
+All activities are performed on **authorized systems only**.
+
+---
+
+## Author
+
+**Position:** *VAPT_Intern*  
+**Program:** CYART – VAPT 
+
+---
+
+# Thank You for Visiting the Repository!
+
+
