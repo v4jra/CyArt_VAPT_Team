@@ -1,12 +1,12 @@
 # CYART VAPT – WEEK 2
 
-**This repository contains all deliverables for Week 2 – Vulnerability Assessment & Penetration Testing (VAPT)**.
+## This repository contains all deliverables for **Week 2 – Vulnerability Assessment & Penetration Testing (VAPT)**.
 The week’s tasks include:
-* Vulnerability Scanning
-* Reconnaissance
-* Exploitation
-* Post-Exploitation
-* PTES-based Reporting
+- **Vulnerability Scanning**
+- **Reconnaissance**
+- **Exploitation**
+- **Post-Exploitation**
+- **PTES-based Reporting**
 
 This repository is designed to look clean, professional, and ready for academic or industry review.
 ```
@@ -17,15 +17,17 @@ Week-2/
  └── README.md             → Week-specific summary
 ```
 
-# Tools Used
-* Kali Linux
-* OpenVAS / Greenbone
-* Nmap
-* Metasploitable2
-* DVWA
-* Burp Suite
+### Tools Used
 
-# Key Deliverables
+- **Kali Linux**
+- **OpenVAS / Greenbone**
+- **Nmap**
+- **Metasploitable2**
+- **DVWA**
+- **Burp Suite**
+
+### Key Deliverables
+
 **Vulnerability Scan (OpenVAS)**
 * Detection of high, medium, and low severity findings
 * CVSS-based prioritization
@@ -52,8 +54,8 @@ Week-2/
 * PTES Technical Report (200+ words)
 * Executive Summary (100 words)
 
-# Refrences
-* Metasploitable2 VM lab https://sourceforge.net/projects/metasploitable/files/Metasploitable2/
-* DVWA setup https://www.kali.org/tools/dvwa/
-* Shodan https://www.shodan.io/
-* OpenVAS https://www.greenbone.net/en/products/
+### Refrences
+- **Metasploitable2 VM lab:** https://sourceforge.net/projects/metasploitable/files/Metasploitable2/
+- **DVWA setup:** https://www.kali.org/tools/dvwa/
+- **Shodan:** https://www.shodan.io/
+- **OpenVAS:** https://www.greenbone.net/en/products/
