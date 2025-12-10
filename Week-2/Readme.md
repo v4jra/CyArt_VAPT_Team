@@ -1,5 +1,7 @@
 # CYART VAPT – WEEK 2
 
+---
+
 ## This repository contains all deliverables for **Week 2 – Vulnerability Assessment & Penetration Testing (VAPT)**.
 The week’s tasks include:
 - **Vulnerability Scanning**
@@ -9,6 +11,9 @@ The week’s tasks include:
 - **PTES-based Reporting**
 
 This repository is designed to look clean, professional, and ready for academic or industry review.
+
+---
+
 ```
 Week-2/
  ├── Documentation/        → Notes, screenshots, workflows
@@ -16,6 +21,8 @@ Week-2/
  ├── Final-Report/         → PTES Technical + Executive Reports
  └── README.md             → Week-specific summary
 ```
+
+---
 
 ### Tools Used
 
@@ -53,6 +60,8 @@ Week-2/
 **Reports**
 * PTES Technical Report (200+ words)
 * Executive Summary (100 words)
+
+---
 
 ### Refrences
 - **Metasploitable2 VM lab:** https://sourceforge.net/projects/metasploitable/files/Metasploitable2/
