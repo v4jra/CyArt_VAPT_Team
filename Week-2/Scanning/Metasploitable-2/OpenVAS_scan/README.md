@@ -38,7 +38,7 @@ The goal of this scan is to **prioritize risk** and provide **actionable remedia
 sudo greenbone-feed-sync
 ```
 
-### Output as a Tbale Format
+### OpenVAS findings Table Format
 | Vulnerability Name | Host | Port | Threat | Severity | CVSS | Description |
 |--------------------|------|-------|---------|----------|--------|-------------|
 | Distributed Ruby (dRuby/DRb) Multiple RCE Vulnerabilities | 192.168.56.101 | 8787/tcp | Critical | 10.0 | 10.0 | Remote RCE via instance_eval/syscall due to unsafe DRb exposure. |
