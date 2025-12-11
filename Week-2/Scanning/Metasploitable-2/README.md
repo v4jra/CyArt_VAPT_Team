@@ -64,3 +64,34 @@ nikto -h http;//192.168.56.101:8180
 Helps understand the technology stack and potential weaknesses.
 
 ![Step 9](wap.png)
+
+### Shodan OSINT Review (No Attacks)
+To compare the lab service with real-world exposure, Shodan data was referenced.
+
+**Shodan information includes:**
+- Exposed ports (e.g., 25, 2121)
+- Detected services like ProFTPD, Postfix
+- SSL certificate metadata
+- Host fingerprinting
+
+![Step 10](shodan.png)
+
+### Shodan Reconnaissance Findings
+Timestamp            | Tool    | Finding
+-------------------- |---------|--------------------------------------------------------------
+2025-12-07 15:45:05  | Shodan  | Detected ProFTPD 1.3.1 on port 2121 (Metasploitable)
+2025-12-07 09:33:20  | Shodan  | Detected Postfix SMTP on port 25 (Metasploitable)
+2025-12-07 15:45:05  | Shodan  | SSL Certificate: ubuntu804-base.localdomain (Self-signed)
+2025-12-07 15:45:05  | Shodan  | Exposed FTP service with weak banner metadata
+2025-12-07 15:45:05  | Shodan  | Host geolocation: Bengaluru, India (ACT Fibernet)
+
+## Subdomain Enumeration (Sublist3r)
+Target: metasploitable.localdomain  
+Tools: Sublist3r, Amass
+
+**Result:**
+No public subdomains identified because the target is an isolated lab machine with no DNS footprint.
+
+**Conclusion:**
+OSINT phase completed – no external exposure detected for subdomains.
+
