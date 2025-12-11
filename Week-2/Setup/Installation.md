@@ -35,7 +35,7 @@ password: msfadmin
 
 ---
 
-## 🐳 2. DVWA Setup Using Docker
+## 2. DVWA Setup Using Docker
 
 DVWA (Damn Vulnerable Web Application) is used for web exploitation and vulnerability testing.
 
