@@ -21,6 +21,8 @@ nmap 192.168.56.0/24 -sn
 
 ![Step 1](host.png)
 
+---
+
 ### 2. Port Scanning
 ```
 sudo nmap -p- -sV -sC --min-rate=1000 -oA ~/VAPT_Project/evidence/scan-all-ports 192.168.56.101 -vv
@@ -65,6 +67,8 @@ Helps understand the technology stack and potential weaknesses.
 
 ![Step 9](wap.png)
 
+---
+
 ### Shodan OSINT Review (No Attacks)
 To compare the lab service with real-world exposure, Shodan data was referenced.
 
@@ -85,8 +89,80 @@ Timestamp            | Tool    | Finding
 2025-12-07 15:45:05  | Shodan  | Exposed FTP service with weak banner metadata
 2025-12-07 15:45:05  | Shodan  | Host geolocation: Bengaluru, India (ACT Fibernet)
 
+---
+
+# DVWA Instances — Summary Report
+
+This report summarizes publicly accessible **Damn Vulnerable Web Application (DVWA) v1.10** instances detected across different countries, organizations, and cloud providers.  
+
+---
+
+## DVWA Instance Details
+
+| Timestamp (UTC)       | IP Address        | Host / Org                               | Country                      | Web Server               | PHP / Tech         | Notes                        |
+|----------------------|-----------------|-----------------------------------------|-------------------------------|--------------------------|-------------------|-------------------------------|
+| 2025-12-12 01:38:17  | 74.48.86.33     | MULTACOM CORPORATION                     | United States (Los Angeles)   | Apache/2.4.25 (Debian)  | PHP/7.0.30        | DVWA Login Page               |
+| 2025-12-12 01:00:24  | 23.95.191.218   | HostPapa                                 | United States (Buffalo)       | Apache/2.4.25 (Debian)  | PHPSESSID cookie  | DVWA Login Page               |
+| 2025-12-12 00:20:47  | 114.66.48.36    | Beijing Yunlin Network Technology Co.,Ltd | China (Ningbo)              | Apache/2.4.65 (Debian)  | PHPSESSID cookie  | DVWA Login Page               |
+| 2025-12-11 21:54:48  | 52.23.11.119    | Amazon Technologies Inc.                 | United States (Ashburn)       | Apache/2.4.25 (Debian)  | PHP 7.x           | DVWA Login Page               |
+| 2025-12-11 21:02:49  | 118.89.67.238   | Tencent Cloud Computing                  | China (Shanghai)              | Apache/2.4.25 (Debian)  | PHPSESSID cookie  | DVWA Setup Page               |
+| 2025-12-11 20:14:39  | 139.59.47.58    | DigitalOcean, LLC                        | India (Doddaballapura)        | nginx/1.14.0 (Ubuntu)   | PHPSESSID cookie  | DVWA Login Page + SSL (Let's Encrypt) |
+| 2025-12-11 19:33:42  | 8.219.172.146   | Alibaba Cloud                            | Singapore                     | nginx/1.28.0             | PHP/8.1.33        | DVWA Login Page               |
+| 2025-12-11 18:46:47  | 130.213.203.114 | Microsoft Limited                         | United States (Boydton)      | Apache/2.4.25 (Debian)  | PHPSESSID cookie  | DVWA Login Page               |
+| 2025-12-11 18:42:41  | 202.157.185.99  | PT. Exabytes Network Indonesia           | Indonesia (Jakarta)           | Apache/2.4.25 (Debian)  | PHPSESSID cookie  | DVWA Login Page               |
+| 2025-12-11 18:32:04  | 61.63.11.90     | KBT Co., LTD                             | Taiwan (Taipei)               | —                        | JSESSIONID cookie | DVWA Login Page + SSL (ZeroSSL) |
+
+---
+
+## Top Countries
+
+| Country                | Count |
+|-----------------------|-------|
+| United States          | 121   |
+| China                  | 58    |
+| Korea (Republic of)    | 23    |
+| Germany                | 16    |
+| Hong Kong              | 14    |
+
+---
+
+## Top Ports
+
+| Port | Count |
+|------|-------|
+| 80   | 177   |
+| 8080 | 54    |
+| 443  | 29    |
+| 1971 | 13    |
+| 81   | 7     |
+
+---
+
+## Top Organizations
+
+| Organization                    | Count |
+|---------------------------------|-------|
+| Amazon Technologies Inc.        | 39    |
+| Microsoft Corporation           | 27    |
+| Amazon Data Services NoVa       | 17    |
+| Google LLC                      | 17    |
+| DigitalOcean, LLC               | 16    |
+
+---
+
+## Top Products
+
+| Product         | Count |
+|-----------------|-------|
+| Apache httpd    | 233   |
+| nginx           | 38    |
+
+---
+
+![step11](dvwa_shodan.png)
+
 ## Subdomain Enumeration (Sublist3r)
-Target: metasploitable.localdomain  
+Target: metasploitable.localdomain, DVWA
 Tools: Sublist3r, Amass
 
 **Result:**
@@ -94,4 +170,3 @@ No public subdomains identified because the target is an isolated lab machine wi
 
 **Conclusion:**
 OSINT phase completed – no external exposure detected for subdomains.
-
