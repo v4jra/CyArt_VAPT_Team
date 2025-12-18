@@ -70,7 +70,7 @@ All testing was conducted on intentionally vulnerable systems in an isolated env
 **ROLE:** VAPT Analyst / Security Intern
 
 ### Reffrences
-**Vulnhub lab:** https://www.vulnhub.com/entry/dc-1,292/
-**Metasploitabe 2:** https://www.vulnhub.com/entry/metasploitable-2,29/
-**Post exploit:** https://gtfobins.github.io/
-**exploit DB:** https://www.exploit-db.com/
+- **Vulnhub lab:** https://www.vulnhub.com/entry/dc-1,292/
+- **Metasploitabe 2:** https://www.vulnhub.com/entry/metasploitable-2,29/
+- **Post exploit:** https://gtfobins.github.io/
+- **exploit DB:** https://www.exploit-db.com/
