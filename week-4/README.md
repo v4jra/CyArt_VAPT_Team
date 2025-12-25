@@ -17,9 +17,6 @@ The scope of this week included:
 - Mobile application security testing
 - Full VAPT simulation using PTES
 
-## Detailed scope is available in:
-- **scope/scope.md**
-
 ---
 
 ## Tools & Technologies
@@ -45,7 +42,7 @@ The scope of this week included:
 - Docker (used for MobSF deployment)
 
 Detailed setup instructions:
-- **tools-setup/**
+- **setup/**
 
 ---
 
@@ -66,18 +63,7 @@ Detailed lab documentation:
 ---
 
 ## Evidence Collection
-All screenshots, command outputs, and proof-of-exploitation images are stored **lab-wise** in the evidence directory.
-```
-evidence/
-├── lab-1/
-├── lab-2/
-├── lab-3/
-├── lab-4/
-├── lab-5/
-└── lab-6/
-```
-
-Each folder contains **only real lab artifacts** captured during testing.
+All screenshots, command outputs, and proof-of-exploitation images are stored **lab-wise** in the evidences directory.
 
 ---
 
@@ -85,8 +71,8 @@ Each folder contains **only real lab artifacts** captured during testing.
 MobSF-generated reports for Android application analysis are attached separately due to size and detail.
 ```
 mobsf-reports/
-├── mobsf-static-analysis.pdf
-└── mobsf-dynamic-analysis.pdf
+├── app-scorecard.pdf
+└── document.pdf
 ```
 
 > Note: The MobSF PDFs contain **complete static and dynamic analysis**, including permissions, API usage, insecure storage, runtime behavior, and traffic analysis.
@@ -119,14 +105,19 @@ All activities in this repository were conducted **strictly in controlled lab en
 
 ## References
 References and learning resources:
-- **references/references.md**
-
+- **OWASP Top 10 Web Application**  https://owasp.org/www-project-web-security-testing-guide/
+- **OWASP API Security Top 10**  https://owasp.org/www-project-api-security/
+- **OWASP Mobile Top 10**  https://owasp.org/www-project-mobile-top-10/
+- **Exploit Database**  https://www.exploit-db.com/
+- **Vulnhub**  https://www.vulnhub.com/
+- **Ghidra**  https://www.varonis.com/blog/how-to-use-ghidra
+- **Frida**  https://frida.re/docs/installation/
+- **Mobsf**  https://github.com/MobSF/Mobile-Security-Framework-MobSF
+- **Postman**  https://learning.postman.com/docs/getting-started/overview/
+- **Ettercap**  https://www.bugcrowd.com/glossary/ettercap/
 
 ---
 
 ## Author
 VAPT Intern  
 Week 4 - Advanced VAPT
-
-
-
