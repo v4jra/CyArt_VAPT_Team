@@ -34,6 +34,8 @@ All steps are written in a simple, step-by-step manner so that even beginners ca
 ip a
 ```
 
+---
+
 ## 3. Core Tools (Kali Linux)
 - Most tools come pre-installed on Kali Linux.
 
@@ -53,6 +55,8 @@ docker.io \
 postman
 ```
 
+---
+
 ## 4. Metasploit Setup
 ```
 sudo systemctl start postgresql
@@ -64,8 +68,10 @@ msfconsole
 - Payload delivery
 - Post-exploitation
 
+---
+
 ## 5. API Security Testing Tools
-Burp Suite
+### Burp Suite
 
 **Browser Proxy Configuration:**
 - IP: 127.0.0.1
@@ -76,12 +82,14 @@ Burp Suite
 - Token manipulation
 - GraphQL testing
 
-**postman**
+### postman
 
 Used for:
 - Manual API requests
 - GraphQL fuzzing
 - Authorization testing
+
+---
 
 ## 6. MobSF Setup (Docker Based – Recommended)
 ```
@@ -101,7 +109,7 @@ sudo docker run -it --rm -p 8000:8000 \
 opensecurity/mobile-security-framework-mobsf:latest
 ```
 
-### Access MobSF
+**Access MobSF**
 Open browser:
 ```
 http://127.0.0.1:8000
@@ -113,6 +121,8 @@ http://127.0.0.1:8000
 - Generating PDF security reports
 
 All MobSF reports are stored separately in the reports folder.
+
+---
 
 ## 7. Frida Setup (Dynamic Analysis)
 - Install Frida on Kali
@@ -136,6 +146,8 @@ chmod +x frida-server
 
 **If Android emulator is unavailable, only static analysis was performed.**
 
+---
+
 ## 8. Drozer Setup (Optional)
 ```
 sudo apt install drozer
@@ -145,6 +157,8 @@ adb forward tcp:31415 tcp:31415
 **Used for:**
 - IPC testing
 - Android component exposure analysis
+
+---
 
 ## 9. Ghidra Setup (Binary Analysis)
 - ghidra
@@ -158,6 +172,8 @@ adb forward tcp:31415 tcp:31415
 **Used for:**
 - Binary reverse engineering
 - Memory vulnerability analysis
+
+---
 
 ## 10. Network Attacks Setup
 **Enable IP Forwarding**
@@ -183,12 +199,16 @@ sudo ettercap -G
 - Start ARP poisoning
 - Monitor traffic
 
+---
+
 ### mitmproxy
 
 **Used for:**
 - HTTP/HTTPS interception
 - Credential capture
 - Traffic inspection
+
+---
 
 ## 11. Evidence Collection
 Evidence captured during testing:
