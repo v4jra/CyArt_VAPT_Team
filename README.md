@@ -9,6 +9,7 @@ Each week contains structured theoretical notes, practical labs, screenshots, re
 CyART_VAPT/
  ├── Week-2/
  ├── Week-3/
+ ├── Week-4/
 ```
 ---
 
@@ -75,6 +76,7 @@ The following security tools are used across the labs:
 |--------|----------------|--------|
 | Week 2 | Vulnerability Scanning Techniques | Completed |
 | Week 3 | VAPT-Full-Cycle-Project | Completed |
+| Week 4 | Vulnerability Assessment & Penetration Testing (VAPT) Project Report | Completed |
 
 ---
 
