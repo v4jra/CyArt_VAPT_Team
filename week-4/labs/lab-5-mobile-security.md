@@ -30,7 +30,7 @@ To analyze Android applications for common security weaknesses.
 ## Dynamic Analysis
 Frida was used to hook application functions and bypass authentication logic.
 
-> 📌 Note: A detailed MobSF report has been attached separately containing complete static and dynamic analysis.
+> Note: A detailed MobSF report has been attached separately containing complete static and dynamic analysis.
 
 ---
 
